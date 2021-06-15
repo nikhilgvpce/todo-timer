@@ -27,7 +27,7 @@ const Todo = () => {
         />
         <button onClick={handleAdd}>Add</button>
       </div>
-      {tasksList.length > 1 && <TasksList tasksList={tasksList} />}
+      {tasksList.length > 0 && <TasksList tasksList={tasksList} />}
     </div>
   );
 };
